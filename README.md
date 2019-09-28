@@ -1,1 +1,1 @@
-A blogger web app, built with html, css and javascript
+A blogger web app, built with html, css and javascript (jquery) 
