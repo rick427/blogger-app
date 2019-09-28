@@ -1,0 +1,64 @@
+@import url('./fonts.css');
+
+html,body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+    --Abel: 'Abel',cursive;
+}
+
+/* Global classes */
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* End of global classes */
+
+
+/* navbar */
+.nav{
+    background: #fff;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+}
+
+.nav .nav-menu{
+    justify-content: space-between;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link{
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: var(--Abel);
+}
+
+.nav .social{
+    padding: 1.4rem 0;
+}
+/* end of navbar */
